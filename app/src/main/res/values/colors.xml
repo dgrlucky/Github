@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copied from Copyright (C) 2017 Kosh.
+ ~ Modified by Copyright (C) 2017 ThirtyDegreesRay.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_light">#212121</color>
+
+    <color name="material_amber_900">#FF6F00</color>
+    <color name="material_amber_accent_700">#FFAB00</color>
+    <color name="material_blue_900">#0D47A1</color>
+    <color name="material_blue_accent_700">#2962FF</color>
+    <color name="material_blue_grey_800" tools:override="true">#37474F</color>
+    <color name="material_blue_grey_900" tools:override="true">#263238</color>
+    <color name="material_brown_700">#5D4037</color>
+    <color name="material_brown_900">#3E2723</color>
+    <color name="material_cyan_900">#006064</color>
+    <color name="material_cyan_accent_700">#00B8D4</color>
+    <color name="material_deep_orange_900">#BF360C</color>
+    <color name="material_deep_orange_accent_700">#DD2C00</color>
+    <color name="material_deep_purple_900">#311B92</color>
+    <color name="material_deep_purple_accent_700">#6200EA</color>
+    <color name="material_green_900">#1B5E20</color>
+    <color name="material_green_accent_700">#00C853</color>
+    <color name="material_grey_200">#EEEEEE</color>
+    <color name="material_grey_350">#D0D0D0</color>
+    <color name="material_grey_500">#9E9E9E</color>
+    <color name="material_grey_700">#616161</color>
+    <color name="material_indigo_500">#3F51B5</color>
+    <color name="material_indigo_700">#303F9F</color>
+    <color name="material_indigo_900">#1A237E</color>
+    <color name="material_indigo_accent_700">#304FFE</color>
+    <color name="material_light_black">#000000</color>
+    <color name="material_light_blue_900">#01579B</color>
+    <color name="material_light_blue_accent_700">#0091EA</color>
+    <color name="material_light_green_900">#33691E</color>
+    <color name="material_light_green_accent_700">#64DD17</color>
+    <color name="material_light_white">#EEEEEE</color>
+    <color name="material_white">#FFFFFF</color>
+    <color name="material_lime_900">#827717</color>
+    <color name="material_lime_accent_700">#AEEA00</color>
+    <color name="material_orange_900">#E65100</color>
+    <color name="material_orange_accent_700">#FF6D00</color>
+    <color name="material_pink_900">#880E4F</color>
+    <color name="material_pink_accent_700">#C51162</color>
+    <color name="material_purple_900">#4A148C</color>
+    <color name="material_purple_accent_700">#AA00FF</color>
+    <color name="material_red_800">#C62828</color>
+    <color name="material_red_900">#B71C1C</color>
+    <color name="material_red_accent_700">#D50000</color>
+    <color name="material_teal_500">#009688</color>
+    <color name="material_teal_700">#00796B</color>
+    <color name="material_teal_900">#004D40</color>
+    <color name="material_teal_accent_700">#00BFA5</color>
+    <color name="material_yellow_900">#F57F17</color>
+    <color name="material_yellow_accent_700">#FFD600</color>
+
+    <color name="commit_file_added_color">#28a745</color>
+    <color name="commit_file_removed_color">#cb2431</color>
+    <color name="commit_file_renamed_color">#6a737d</color>
+    <color name="commit_file_modified_color">#dbab09</color>
+
+</resources>
