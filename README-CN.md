@@ -93,14 +93,3 @@
 * [Edfgdz](https://github.com/Edfgdz) - 测试与建议
 * [pzhlkj6612](https://github.com/pzhlkj6612) - 改进中文概述的翻译
 * [hiteshnayak305](https://github.com/hiteshnayak305) - 印地语翻译
-
-## License
-ThirtyDegreesRay:
-> Copyright (C) 2017 ThirtyDegreesRay.
-> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html).
-> (See the [LICENSE](https://github.com/ThirtyDegreesRay/OpenHub/blob/master/LICENSE) file for the whole license text.)
-
-Kosh(There are 13 files has some code copied from FastHub):
-> Copyright (C) 2017 Kosh.
-> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.
-> (See the [LICENSE](https://github.com/k0shk0sh/FastHub/blob/master/LICENSE) file for the whole license text.)
