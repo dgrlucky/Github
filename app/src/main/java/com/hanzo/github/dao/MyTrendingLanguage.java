@@ -18,7 +18,7 @@ public class MyTrendingLanguage {
     private String name;
     private int order;
 
-    @Generated
+    @Generated(hash = 914540024)
     public MyTrendingLanguage() {
     }
 
@@ -26,8 +26,8 @@ public class MyTrendingLanguage {
         this.slug = slug;
     }
 
-    @Generated
-    public MyTrendingLanguage(String slug, String name, int order) {
+    @Generated(hash = 872188411)
+    public MyTrendingLanguage(@NotNull String slug, @NotNull String name, int order) {
         this.slug = slug;
         this.name = name;
         this.order = order;

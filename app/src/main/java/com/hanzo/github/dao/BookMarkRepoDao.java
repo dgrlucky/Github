@@ -22,7 +22,7 @@ public class BookMarkRepoDao extends AbstractDao<BookMarkRepo, Long> {
      * Can be used for QueryBuilder and for referencing column names.
      */
     public static class Properties {
-        public final static Property Id = new Property(0, long.class, "id", true, "ID");
+        public final static Property Id = new Property(0, long.class, "id", true, "_id");
         public final static Property Name = new Property(1, String.class, "name", false, "NAME");
         public final static Property Description = new Property(2, String.class, "description", false, "DESCRIPTION");
         public final static Property Language = new Property(3, String.class, "language", false, "LANGUAGE");
@@ -48,7 +48,7 @@ public class BookMarkRepoDao extends AbstractDao<BookMarkRepo, Long> {
     public static void createTable(Database db, boolean ifNotExists) {
         String constraint = ifNotExists? "IF NOT EXISTS ": "";
         db.execSQL("CREATE TABLE " + constraint + "\"BOOK_MARK_REPO\" (" + //
-                "\"ID\" INTEGER PRIMARY KEY NOT NULL ," + // 0: id
+                "\"_id\" INTEGER PRIMARY KEY NOT NULL ," + // 0: id
                 "\"NAME\" TEXT NOT NULL ," + // 1: name
                 "\"DESCRIPTION\" TEXT," + // 2: description
                 "\"LANGUAGE\" TEXT," + // 3: language

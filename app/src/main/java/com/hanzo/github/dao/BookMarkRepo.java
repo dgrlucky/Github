@@ -25,7 +25,7 @@ public class BookMarkRepo {
     private String ownerAvatarUrl;
     private java.util.Date markTime;
 
-    @Generated
+    @Generated(hash = 1721707900)
     public BookMarkRepo() {
     }
 
@@ -33,8 +33,9 @@ public class BookMarkRepo {
         this.id = id;
     }
 
-    @Generated
-    public BookMarkRepo(long id, String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl, java.util.Date markTime) {
+    @Generated(hash = 508386014)
+    public BookMarkRepo(long id, @NotNull String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl,
+            java.util.Date markTime) {
         this.id = id;
         this.name = name;
         this.description = description;

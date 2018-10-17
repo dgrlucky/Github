@@ -27,6 +27,7 @@ import com.hanzo.github.ui.activity.ReleaseInfoActivity;
 import com.hanzo.github.ui.activity.ReleasesActivity;
 import com.hanzo.github.ui.activity.RepositoryActivity;
 import com.hanzo.github.ui.activity.ViewerActivity;
+import com.hanzo.github.ui.activity.WebViewActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -82,7 +83,8 @@ public class AppOpener {
             }
 
         } else {
-            openInBrowser(context,url);
+            WebViewActivity.launchWebViewActivity(context,url);
+//            openInBrowser(context,url);
         }
 
     }

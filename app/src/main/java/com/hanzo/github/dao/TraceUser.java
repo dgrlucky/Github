@@ -21,7 +21,7 @@ public class TraceUser {
     private java.util.Date latestTime;
     private Integer traceNum;
 
-    @Generated
+    @Generated(hash = 572788373)
     public TraceUser() {
     }
 
@@ -29,8 +29,9 @@ public class TraceUser {
         this.login = login;
     }
 
-    @Generated
-    public TraceUser(String login, String name, String avatarUrl, Integer followers, Integer following, java.util.Date startTime, java.util.Date latestTime, Integer traceNum) {
+    @Generated(hash = 130690218)
+    public TraceUser(@NotNull String login, String name, String avatarUrl, Integer followers, Integer following, java.util.Date startTime, java.util.Date latestTime,
+            Integer traceNum) {
         this.login = login;
         this.name = name;
         this.avatarUrl = avatarUrl;

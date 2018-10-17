@@ -24,7 +24,7 @@ public class LocalRepo {
     private String ownerLogin;
     private String ownerAvatarUrl;
 
-    @Generated
+    @Generated(hash = 1586707348)
     public LocalRepo() {
     }
 
@@ -32,8 +32,8 @@ public class LocalRepo {
         this.id = id;
     }
 
-    @Generated
-    public LocalRepo(long id, String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl) {
+    @Generated(hash = 2004103352)
+    public LocalRepo(long id, @NotNull String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl) {
         this.id = id;
         this.name = name;
         this.description = description;

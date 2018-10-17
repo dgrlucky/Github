@@ -33,7 +33,7 @@ public class AuthUser implements Parcelable {
     private String name;
     private String avatar;
 
-    @Generated
+    @Generated(hash = 1740224645)
     public AuthUser() {
     }
 
@@ -41,8 +41,9 @@ public class AuthUser implements Parcelable {
         this.accessToken = accessToken;
     }
 
-    @Generated
-    public AuthUser(String accessToken, java.util.Date authTime, int expireIn, String scope, boolean selected, String loginId, String name, String avatar) {
+    @Generated(hash = 211957913)
+    public AuthUser(@NotNull String accessToken, @NotNull java.util.Date authTime, int expireIn, @NotNull String scope, boolean selected, @NotNull String loginId,
+            String name, String avatar) {
         this.accessToken = accessToken;
         this.authTime = authTime;
         this.expireIn = expireIn;

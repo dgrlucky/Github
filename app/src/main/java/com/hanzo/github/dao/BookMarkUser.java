@@ -19,7 +19,7 @@ public class BookMarkUser {
     private Integer following;
     private java.util.Date markTime;
 
-    @Generated
+    @Generated(hash = 729644159)
     public BookMarkUser() {
     }
 
@@ -27,8 +27,9 @@ public class BookMarkUser {
         this.login = login;
     }
 
-    @Generated
-    public BookMarkUser(String login, String name, String avatarUrl, Integer followers, Integer following, java.util.Date markTime) {
+    @Generated(hash = 1714511805)
+    public BookMarkUser(@NotNull String login, String name, String avatarUrl, Integer followers, Integer following,
+            java.util.Date markTime) {
         this.login = login;
         this.name = name;
         this.avatarUrl = avatarUrl;

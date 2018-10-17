@@ -20,7 +20,7 @@ public class Trace {
     private java.util.Date latestTime;
     private Integer traceNum;
 
-    @Generated
+    @Generated(hash = 2124630622)
     public Trace() {
     }
 
@@ -28,8 +28,9 @@ public class Trace {
         this.id = id;
     }
 
-    @Generated
-    public Trace(String id, String type, String userId, Long repoId, java.util.Date startTime, java.util.Date latestTime, Integer traceNum) {
+    @Generated(hash = 519130375)
+    public Trace(@NotNull String id, String type, String userId, Long repoId, java.util.Date startTime, java.util.Date latestTime,
+            Integer traceNum) {
         this.id = id;
         this.type = type;
         this.userId = userId;

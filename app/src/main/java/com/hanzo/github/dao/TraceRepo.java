@@ -27,7 +27,7 @@ public class TraceRepo {
     private java.util.Date latestTime;
     private Integer traceNum;
 
-    @Generated
+    @Generated(hash = 696790085)
     public TraceRepo() {
     }
 
@@ -35,8 +35,9 @@ public class TraceRepo {
         this.id = id;
     }
 
-    @Generated
-    public TraceRepo(long id, String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl, java.util.Date startTime, java.util.Date latestTime, Integer traceNum) {
+    @Generated(hash = 457978559)
+    public TraceRepo(long id, @NotNull String name, String description, String language, Integer stargazersCount, Integer watchersCount, Integer forksCount, Boolean fork, String ownerLogin, String ownerAvatarUrl, java.util.Date startTime, java.util.Date latestTime,
+            Integer traceNum) {
         this.id = id;
         this.name = name;
         this.description = description;

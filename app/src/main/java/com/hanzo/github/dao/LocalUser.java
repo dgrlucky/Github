@@ -18,7 +18,7 @@ public class LocalUser {
     private Integer followers;
     private Integer following;
 
-    @Generated
+    @Generated(hash = 173344742)
     public LocalUser() {
     }
 
@@ -26,8 +26,8 @@ public class LocalUser {
         this.login = login;
     }
 
-    @Generated
-    public LocalUser(String login, String name, String avatarUrl, Integer followers, Integer following) {
+    @Generated(hash = 546360318)
+    public LocalUser(@NotNull String login, String name, String avatarUrl, Integer followers, Integer following) {
         this.login = login;
         this.name = name;
         this.avatarUrl = avatarUrl;

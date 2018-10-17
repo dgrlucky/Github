@@ -20,7 +20,7 @@ public class Bookmark {
     private Long repoId;
     private java.util.Date markTime;
 
-    @Generated
+    @Generated(hash = 1206029275)
     public Bookmark() {
     }
 
@@ -28,8 +28,9 @@ public class Bookmark {
         this.id = id;
     }
 
-    @Generated
-    public Bookmark(String id, String type, String userId, Long repoId, java.util.Date markTime) {
+    @Generated(hash = 359761636)
+    public Bookmark(@NotNull String id, @NotNull String type, String userId, Long repoId,
+            java.util.Date markTime) {
         this.id = id;
         this.type = type;
         this.userId = userId;

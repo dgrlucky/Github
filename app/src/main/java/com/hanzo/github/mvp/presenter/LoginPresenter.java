@@ -138,7 +138,7 @@ public class LoginPresenter extends BasePresenter<ILoginContract.View>
 
                     @Override
                     public void onSuccess(HttpResponse<User> response) {
-//                        mView.dismissProgressDialog();
+                        mView.dismissProgressDialog();
                         saveAuthUser(basicToken, response.body());
                         mView.onLoginComplete();
                     }
